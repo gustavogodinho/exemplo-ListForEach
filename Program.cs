@@ -22,6 +22,7 @@ namespace ExemploForEach
         });
 
         names.ForEach((s)=> {
+            s.ID = 100;
             s.Nome = "Hey Ho!";
             System.Console.WriteLine(s);
         });
